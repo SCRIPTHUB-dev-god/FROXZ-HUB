@@ -280,3 +280,6 @@ local Dropdown = Tab1:Dropdown({
     }
 })
     
+if game.PlaceId == 4278359162 then
+    Script()
+end
