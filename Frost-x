@@ -210,6 +210,182 @@ local Button = Tab2:Button({
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/H5yQtLp0"))()
     end
+})        Color3.fromHex("#91bbff")
+    ),
+    OnlyMobile = false,
+    Enabled = true,
+    Draggable = true,
+})
+
+local Section = Window:Section({
+    Title = "games",
+    Icon = "gamepad-2",
+    Opened = true,
+})
+
+local Tab1 = Window:Tab({
+    Title = "Grow A Garden",
+    Icon = "sprout", -- optional
+    Locked = false,
+})
+
+local Paragraph = Tab1:Paragraph({
+    Title = "Grow A Garden script",
+    Desc = "choose your script Grow A Garden",
+    Color = "Blue",
+    Image = "",
+    ImageSize = 30,
+    Thumbnail = "",
+    ThumbnailSize = 80,
+    Locked = false
+})
+
+local Dropdown = Tab1:Dropdown({
+    Title = "choose script",
+    Values = {
+        {
+            Title = "speed hub x",
+            Desc = "key system",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+            end
+        },
+        {
+            Title = "wish hub",
+            Desc = "keyless",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/dy1zn4t/WisHubX/refs/heads/main/loader"))()
+            end
+        },
+        {
+            Title = "Lunor",
+            Desc = "key system",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet('https://lunor.dev/loader'))()
+            end
+        },
+        {
+            Title = "Lumin",
+            Desc = "key system",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("http://luminon.top/loader.lua"))()
+            end
+        },
+                {
+            Title = "Thunders hub",
+            Desc = "key system",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+            end
+        },
+    }
+})
+
+local Section = Window:Section({
+    Title = "admin script",
+    Icon = "swords",
+    Opened = true,
+})
+
+local Tab3 = Window:Tab({
+    Title = "admin script",
+    Icon = "shield", -- optional
+    Locked = false,
+})
+
+local Paragraph = Tab3:Paragraph({
+    Title = "admin script",
+    Desc = "choose your script admin",
+    Color = "Blue",
+    Image = "",
+    ImageSize = 30,
+    Thumbnail = "",
+    ThumbnailSize = 80,
+    Locked = false
+})
+
+local Dropdown = Tab3:Dropdown({
+    Title = "choose script",
+    Values = {
+        {
+            Title = "infinite yield",
+            Desc = "keyless",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+            end
+        },
+        {
+            Title = "Nameless",
+            Desc = "keyless",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+            end
+        },
+        {
+            Title = "vape v4",
+            Desc = "keyless",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+            end
+        },
+        {
+            Title = "dex explorer",
+            Desc = "keyless",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dex-Explorer-DPP-73687"))()
+            end
+        },
+                {
+            Title = "ak admin",
+            Desc = "key system in discord",
+            Icon = "mouse-pointer-click",
+            Callback = function() 
+                loadstring(game:HttpGet("https://absent.wtf/AKADMIN.lua"))()
+            end
+        },
+    }
+})
+
+local Section = Window:Section({
+    Title = "misc",
+    Icon = "clipboard",
+    Opened = true,
+})
+
+local Tab2 = Window:Tab({
+    Title = "executor",
+    Icon = "swords", -- optional
+    Locked = false,
+})
+
+local Paragraph = Tab2:Paragraph({
+    Title = "executor default",
+    Desc = "executor default in script",
+    Color = "Blue",
+    Image = "",
+    ImageSize = 30,
+    Thumbnail = "",
+    ThumbnailSize = 80,
+    Locked = false
+})
+
+local Button = Tab2:Button({
+    Title = "executor",
+    Desc = "keyless executor",
+    Color = Color3.fromHex("#3d78a8"),
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/H5yQtLp0"))()
+    end
 })        Color3.fromHex("F89B29")
     ),
     OnlyMobile = false,
